@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  min-width: 0;
+}
+
+input {
+  color-scheme: dark;
+}
+
+/* React Day Picker custom styles */
+.rdp {
+  --rdp-accent-color: #a3e635 !important; /* lime-400 */
+  --rdp-background-color: #71717a !important; /* zinc-400 */
+}
+.rdp-day_selected {
+  color: black !important;
+}
+.rdp-nav_button {
+  color: #a3e635 !important; /* lime-400 */
+}
